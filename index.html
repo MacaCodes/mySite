@@ -1,149 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacaCodes - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Link to Google Fonts - Exo -->
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap" rel="stylesheet">
-    <title>My Site</title>
-  </head>
+    <link rel="icon" href="https://freeiconshop.com/wp-content/uploads/edd/code-flat.png" type="image/png">
 
-  <!-- This is a comment -->
+</head>
+<body>
 
-  <body>
-    <h1>MacaCodes</h1>
-    <hr />
+    <script src="script.js"></script>
 
-    <img src="funnychihuhaha.jpeg" alt="Karen Chihuhaha" />
+    <header>
+        <div class="logo">MacaCodes</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><span id="darkModeToggle" class="dark-mode-switch" onclick="toggleDarkMode()">🌙</span></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div>
-      <nav>
-        <a href="https://www.google.com" target="_blank">Visit Google |</a>
-        <a href="https://www.Instagram.com" target="_blank"
-          >Visit Instagram |</a
-        >
-        <a href="https://www.Twitter.com" target="_blank">Visit X</a>
-      </nav>
+    <script src="script.js"></script>
+
+
+    <!-- Banner Image -->
+    <div class="banner">
+        <img src="https://wallpapers.com/images/high/lilac-background-1200-x-750-qcxktyuvjmb7lpx7.webp" alt="Banner Image">
     </div>
 
-    <hr />
-    <br />
-    <br />
+  
+    <section id="about" class="section">
+        <div class="container">
+            <img src="https://media.licdn.com/dms/image/D4E03AQHRly2KEuHN9A/profile-displayphoto-shrink_800_800/0/1692191461662?e=1710979200&v=beta&t=GkAZveL7sWethWYqFNcbGA9IsVQybXQJ5-1_zFsAaNk" alt="Headshot" class="headshot">
+            <h2>About Me</h2>
+            <p>
+                Politics & Sociology graduate. Techie. Conversational Chinese speaker. Previously 4 years in Recruitment.
+                Self-studying & bootcamp attending in front-end web development (MERN STACK).
+                <p>Passionate about learning Mandarin. 对不起，我的中文不好. </p>
+               <p> Intrigued by exciting new tech in areas like AI,
+                machine learning, disruptive startups, cybersecurity, and renewable energy.</p>
+               <p> I also really like red wine 🍷, self-help books 📚 & the planet 🌍.</p>
+            </p>
+            <p>Currently reading: Think Like a Monk - Jay Shetty</p>
 
-    <progress value="25" max="100">25%</progress>
+            <q><i>Experience is the name everyone gives to their mistakes.”</q> – Oscar Wilde</i>
 
-    <br />    <br />
+        </div>
+    </section>
 
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="centered-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </section>
 
-    <p>
-      Today I am learning HTML, here are some things and elements I'm testing
-      out.
-    </p>
+    <h1>Bootcamp Journal</h1>
+    <section id="week-1" class="weeks">
+        <h2>Week 1: JavaScript Fundamentals</h2>
 
-    <h2>Favourite Food</h2>
-    <ul>
-      <li>Pizza <i>(margherita pls)</i></li>
-      <li>Veggie Burgers</li>
-      <li>Pie</li>
-    </ul>
+        <article>
+            <h3>Improvements Made</h3>
+            <p>Explored JavaScript basics, including variables, operators, and control structures.</p>
+        </article>
 
-    <button>This button does nothing</button>
+        <article>
+            <h3>Solutions / Most Proud Of</h3>
+            <p>Successfully implemented functions and grasped the concept of objects.</p>
+        </article>
 
-    <br />
-    <blockquote>
-      <p>It’s not a bug; it’s an undocumented feature. ― Anonymous.</p>
-    </blockquote>
+        <article>
+            <h3>Errors Encountered</h3>
+            <p>Faced challenges with loops initially, but collaborative discussions helped overcome them.</p>
+        </article>
 
-    <a href="https://www.google.com">Visit Google.com</a>
-    <p>Google is the most visited website.</p>
+        <article>
+            <h3>What You Discovered</h3>
+            <p>Discovered the power of func tions in modularizing code and making it more readable.</p>
+        </article>
 
-    <br />
+        <article>
+            <h3>Summary of Project</h3>
+            <p>Completed fundamental JavaScript exercises, gaining a strong understanding of basic concepts.</p>
+        </article>
+    </section>
 
-    <img
-      src="https://i.pinimg.com/originals/8e/71/8c/8e718cf8c3b6739c9a67c713b2d7c0f9.jpg"
-      alt="Testing image"
-    />
+    <section id="week-2" class="weeks">
+        <h2>Week 2: HTML, Git, CSS</h2>
 
-    <br />
-    <hr />
-    <form>
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" />
+        <article>
+            <h3>Improvements Made</h3>
+            <p>Learned the basics of HTML and Git/GitHub, understanding their importance in web development.</p>
+        </article>
 
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" />
+        <article>
+            <h3>Solutions / Most Proud Of</h3>
+            <p>Successfully executed SQL queries and filters, gaining confidence in handling relational databases.</p>
+        </article>
 
-      <button type="submit">This button also does nothing</button>
-    </form>
-    <hr />
+        <article>
+            <h3>Errors Encountered</h3>
+            <p>Faced challenges with CSS styling, particularly positioning elements, but practice improved skills.</p>
+        </article>
 
-            <h1>Bootcamp Journal</h1>
-    
-        <section id="week-1">
-            <h2>Week 1: JavaScript Fundamentals</h2>
-    
-            <article>
-                <h3>Improvements Made</h3>
-                <p>Explored JavaScript basics, including variables, operators, and control structures.</p>
-            </article>
-    
-            <article>
-                <h3>Solutions / Most Proud Of</h3>
-                <p>Successfully implemented functions and grasped the concept of objects.</p>
-            </article>
-    
-            <article>
-                <h3>Errors Encountered</h3>
-                <p>Faced challenges with loops initially, but collaborative discussions helped overcome them.</p>
-            </article>
-    
-            <article>
-                <h3>What You Discovered</h3>
-                <p>Discovered the power of functions in modularizing code and making it more readable.</p>
-            </article>
-    
-            <article>
-                <h3>Summary of Project</h3>
-                <p>Completed fundamental JavaScript exercises, gaining a strong understanding of basic concepts.</p>
-            </article>
-        </section>
-    
-        <section id="week-2">
-            <h2>Week 2: HTML, Git, CSS</h2>
-    
-            <article>
-                <h3>Improvements Made</h3>
-                <p>Learned the basics of HTML and Git/GitHub, understanding their importance in web development.</p>
-            </article>
-    
-            <article>
-                <h3>Solutions / Most Proud Of</h3>
-                <p>Successfully executed SQL queries and filters, gaining confidence in handling relational databases.</p>
-            </article>
-    
-            <article>
-                <h3>Errors Encountered</h3>
-                <p>Faced challenges with CSS styling, particularly positioning elements, but practice improved skills.</p>
-            </article>
-    
-            <article>
-                <h3>What You Discovered</h3>
-                <p>Discovered the significance of version control with Git and the visual appeal added by CSS styling.</p>
-            </article>
-    
-            <article>
-                <h3>Summary of Project</h3>
-                <p>Built a foundation in HTML, Git, and CSS, enhancing the overall structure and appearance of web pages.</p>
-            </article>
-        </section>
-    
+        <article>
+            <h3>What You Discovered</h3>
+            <p>Discovered the significance of version control with Git and the visual appeal added by CSS styling.</p>
+        </article>
 
-        <br />
-<hr> 
-        <footer>
-            <p>&copy; 2024 MacaCodes. All rights reserved.</p>
-        </footer>
+        <article>
+            <h3>Summary of Project</h3>
+            <p>Built a foundation in HTML, Git, and CSS, enhancing the overall structure and appearance of web pages.</p>
+        </article>
+    </section> 
+
+</div>
+</section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Linkedin.com/macauleygibson | macauley@email.com | x.com/macacodes </p>
+        </div>
+    </section>
 
 
-  </body>
+<section><div>    <img src="https://31.media.tumblr.com/3b62e71ef618fff36381ca39e8c68392/tumblr_mqeo0dTJAU1spo3yuo1_500.gif" class="draggableImage" id="draggableImage">
+</div></section>
+
+    <div class="banner above-footer">
+        <img src="https://wallpapers.com/images/high/lilac-background-1200-x-750-qcxktyuvjmb7lpx7.webp" alt="Banner Image">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 MacaCodes. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
